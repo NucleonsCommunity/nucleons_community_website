@@ -1,0 +1,72 @@
+@media screen and (max-width: 1900px) {
+    .banner.full{
+        min-height: 600px;
+      }  
+      header h2{    
+          font-size: 80px;  
+        }  
+        header h3{
+            font-size: 25px;
+        }
+    }
+@media screen and (max-width: 1500px) {
+      header h2{
+          font-size: 60px;
+          }
+    header h3{
+        font-size: 20px;
+        }
+    }
+@media screen and (max-width: 1080px) {
+    .banner.full{
+         min-height: 500px; 
+        }  
+    header h2{
+        font-size: 40px;
+        }
+    header h3{
+        font-size: 15px;
+      }
+    }
+@media screen and (max-width: 720px) {
+    .banner.full{
+         min-height: 400px;
+        }
+    header h2{    
+        font-size: 35px;
+      }
+     header h3{    
+         font-size: 15px;
+         }
+        }
+@media screen and (max-width: 480px) {
+     header h2{
+        font-size: 30px;
+      }  
+      header h3{
+        font-size: 15px; }
+    }
+
+.nav-tabs {
+    margin-bottom: 15px;
+}
+.sign-with {
+    margin-top: 25px;
+    padding: 20px;
+}
+div#OR {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #C2C2C2;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    z-index: 1;
+    background: #DFDFDF;
+}

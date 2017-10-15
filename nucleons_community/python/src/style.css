@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+html{
+font-family: Poppins,sans-serif;
+font-size: 16px;
+}
+
+a{
+    font-size: 18px; 
+}
+@media screen and (max-width: 992px) {
+    .push-right .sidebar {
+    left: 335px !important;
+}
+}
